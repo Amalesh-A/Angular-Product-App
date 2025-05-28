@@ -1,11 +1,15 @@
-import { Component } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-productcard',
-  imports: [],
   templateUrl: './productcard.component.html',
-  styleUrl: './productcard.component.css'
+  styleUrls: ['./productcard.component.css']
 })
 export class ProductcardComponent {
+  @Input() product!: {id: number, name: string, price: number, description: string};
+  @Output() viewProduct = new EventEmitter<number>();
 
+  onViewProduct() {
+    this.viewProduct.emit(this.product.id);
+  }
 }
