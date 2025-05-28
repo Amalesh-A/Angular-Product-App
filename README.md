@@ -40,9 +40,11 @@ To start the development server:
 ## Screenshots:
 
 /products -
+![prodhome](https://github.com/user-attachments/assets/c849b3dc-4f4f-4764-b6c5-24e4a234afca)
 
 
 /products/:id - 
+![prod](https://github.com/user-attachments/assets/1f630913-1ebc-4468-bd5a-a66b4a2578a2)
 
 
 
