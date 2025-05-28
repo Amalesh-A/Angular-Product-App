@@ -6,28 +6,28 @@ Prod-A! is an angular based product app, that showcases a list of products and a
 ## Prerequisites:
 
 
-Node.js:  >= 18 
+Node.js:  Version >= 18 
 Angular CLI
 
-	npm install -g @angular/cli
+	  npm install -g @angular/cli
 
 ## Installation:
 
 Clone the repository
 
-  git clone https://github.com/Amalesh-A/Angular-Product-App.git
-
-  cd Angular-Product-App
+	  git clone https://github.com/Amalesh-A/Angular-Product-App.git
+  
+    cd Angular-Product-App
 
 Install dependencies
 
-  npm install
+    npm install
 
 ## Running the Application:
 
 To start the development server:
 
-	ng serve
+	  ng serve
 
 ## Routes:
 
