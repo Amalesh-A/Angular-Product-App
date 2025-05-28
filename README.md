@@ -25,35 +25,51 @@ For a complete list of available schematics (such as `components`, `directives`,
 ```bash
 ng generate --help
 ```
+Prod-A!: An Angular Product App
 
-## Building
+Prod-A! is an angular based product app, that showcases a list of products and allows users to explore the elaborate details of a particular product. This application showcases component-based architecture, data binding, services with Observables, and routing.
 
-To build the project run:
 
-```bash
-ng build
-```
+Prerequisites:
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
 
-## Running unit tests
+Node.js:  >= 18 
+Angular CLI
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+	npm install -g @angular/cli
 
-```bash
-ng test
-```
+Installation:
 
-## Running end-to-end tests
+Clone the repository
 
-For end-to-end (e2e) testing, run:
+git clone https://github.com/Amalesh-A/Angular-Product-App.git
 
-```bash
-ng e2e
-```
+cd Angular-Product-App
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Install dependencies
 
-## Additional Resources
+npm install
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+Running the Application:
+
+To start the development server:
+
+	ng serve
+
+Routes:
+
+/products - Product Listing Page
+/products/:id - Product Details Page
+
+
+
+
+Screenshots:
+
+/products -
+
+
+/products/:id - 
+
+
+
