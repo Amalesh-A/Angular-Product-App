@@ -21,7 +21,7 @@ Clone the repository
 
 Install dependencies
 
-    npm install
+      npm install
 
 ## Running the Application:
 
