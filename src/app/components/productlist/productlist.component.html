@@ -1,7 +1,19 @@
-<div class="product-list">
-    <app-productcard 
-        *ngFor="let product of products"
-        [product]="product"
-        (viewProduct)="handleViewProduct($event)"
-    ></app-productcard>
-</div>
+<table class="product-table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let product of products">
+        <td>{{ product.id }}</td>
+        <td>{{ product.name }}</td>
+        <td>
+          <button (click)="handleViewProduct(product.id)">View</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  

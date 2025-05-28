@@ -1,5 +1,50 @@
-.product-list {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-  }
+.product-table {
+  margin: 3rem auto 0 auto;
+  width: 80%;
+  border-collapse: seperate;
+  border-spacing: 0;
+  border: 3px solid black;
+  border-radius: 12px;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  font-size: 1.1rem;
+}
+
+.product-table th,
+.product-table td {
+  border: 2px solid black;
+  padding: 0.75rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.product-table th {
+  font-weight: bold;
+  font-size: 1.5rem;
+  background-color: #A53860;
+  color: #FFEEDB;
+}
+
+.product-table tbody tr:hover {
+  background-color: rgba(0, 0, 0, 0.05); /* light gray overlay */
+  transition: background-color 0.3s ease;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  border: none;
+  background-color: #A53860;
+  color: #FFEEDB;
+  cursor: pointer;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #FFEEDB;
+  color:#A53860;
+  border: 2px solid #A53860;
+}
