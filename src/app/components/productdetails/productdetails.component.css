@@ -3,12 +3,13 @@
   margin: 2rem auto;
   padding: 2rem;
   border-radius: 8px;
+  border: 5px solid #A53860;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  background-color: white;
+  background-color: #FFEEDB;
 }
 
 h2 {
-  color: #333;
+  color: #A53860;
   margin-bottom: 1.5rem;
 }
 
@@ -20,6 +21,15 @@ p {
 
 strong {
   color: #333;
+}
+
+a {
+  color: #A53860;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 button {
