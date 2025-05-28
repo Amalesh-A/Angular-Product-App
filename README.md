@@ -17,7 +17,7 @@ Clone the repository
 
 	  git clone https://github.com/Amalesh-A/Angular-Product-App.git
   
-    cd Angular-Product-App
+      cd Angular-Product-App
 
 Install dependencies
 
