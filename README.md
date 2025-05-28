@@ -46,5 +46,11 @@ To start the development server:
 /products/:id - 
 ![prod](https://github.com/user-attachments/assets/1f630913-1ebc-4468-bd5a-a66b4a2578a2)
 
+## Demo:
+
+https://github.com/user-attachments/assets/e19bb31c-9162-401d-9179-3e1b4c17eaec
+
+
+
 
 
